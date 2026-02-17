@@ -17,7 +17,7 @@ export function Background() {
 
   return (
     <motion.div
-      className="fixed top-0 left-0 z-10 h-dvh w-dvw flex items-center justify-center"
+      className="fixed top-0 left-0 z-10 h-dvh w-dvw flex items-center justify-center pointer-events-none"
       style={{ opacity, filter: blur, willChange: "opacity, filter" }}
     >
       <div className="dark:filter-[brightness(0)_invert(1)]">
